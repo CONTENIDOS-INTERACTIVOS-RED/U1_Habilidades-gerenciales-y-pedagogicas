@@ -16,7 +16,7 @@
       div.px-4.px-md-5.py-md-3
         SlyderA(tipo="b").bg-white
           .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4.col-xl-5
               figure
                 img(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
@@ -28,7 +28,7 @@
               p <b>- Respeto: </b>mantener consideración por las opiniones de los demás.
               p <b>- Escucha activa: </b>prestar atención y responder de manera empática.
           .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4.col-xl-5
               figure
                 img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
@@ -144,21 +144,21 @@
       div.px-4.px-md-5.py-md-3
         SlyderA(tipo="b").bg-white
           .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4.col-xl-5
               figure
                 img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
               p.text-bold.mb-4 Mayor compromiso
               p Los colaboradores se sienten motivados y alineados con los valores de la empresa.
           .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4.col-xl-5
               figure
                 img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
               p.text-bold.mb-4 Reducción de la rotación
               p Un buen clima laboral disminuye la intención de abandonar la organización.
           .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4.col-xl-5
               figure
                 img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")

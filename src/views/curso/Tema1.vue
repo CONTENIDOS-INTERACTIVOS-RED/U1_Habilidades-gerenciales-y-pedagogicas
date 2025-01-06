@@ -86,14 +86,14 @@
       div.px-4.px-md-5.py-md-3
         SlyderA(tipo="b").bg-white
           .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4.col-xl-5
               figure
                 img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
               p.text-bold Liderazgo individual
               p Se centra en las características personales del líder, como sus habilidades, conocimientos y principios éticos. Es crucial para inspirar y guiar a otros hacia objetivos comunes.
           .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4.col-xl-5
               figure
                 img(src='@/assets/curso/unidad/img-11.png', alt='Texto que describa la imagen')
             .col-md-12.col-lg-7.mb-4.mb-md-0(data-aos="zoom-in-left")
@@ -119,7 +119,7 @@
     p.mb-4 El liderazgo no se define por un único atributo, sino por una combinación de competencias y habilidades que en conjunto permiten a una persona destacarse como líder. A continuación, se detallan varias características esenciales del liderazgo, basadas en propuestas de diversos autores, para proporcionar un marco integral de desarrollo personal y profesional.
     .row.mb-4
       .col-12.col-xl-7(data-aos="fade-right")
-        .bg-marron-claro.p-4
+        .bg-marron-claro.p-4.h-100
           p.text-bold Comunicación asertiva
           .d-flex.align-items-start
             img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-13.svg', alt='Texto que describa la imagen')
@@ -330,7 +330,7 @@
     p.mb-4 El liderazgo empresarial es multifacético y su efectividad radica en equilibrar competencias estratégicas, operativas y personales. Modelos como el del "nuevo líder" destacan la importancia de integrar habilidades individuales con capacidades organizacionales, promoviendo un liderazgo que inspire, motive y movilice equipos hacia el logro de objetivos compartidos.
     .row.mb-5
       .col-12.col-xl-8(data-aos="fade-right")
-        .bg-azul.p-4 
+        .bg-azul.p-4.h-100
           span Adoptar estos modelos y características no solo mejora la gestión en áreas como la seguridad y la salud en el trabajo, sino que también fomenta la innovación, la resiliencia y el crecimiento sostenible en un entorno cambiante y competitivo. Un líder ideal no solo dirige, sino que construye un legado basado en valores, confianza y visión estratégica.
           
       .d-none.d-xl-block.col-xl-4(data-aos="fade-left")
