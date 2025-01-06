@@ -166,7 +166,7 @@
               p Los empleados perciben justicia en el trato y en las oportunidades dentro de la organización.
     
     p.mb-4 En conclusión, el liderazgo orientado al desarrollo del potencial humano es esencial para consolidar un clima empresarial favorable. Este enfoque fomenta la colaboración, la innovación y el compromiso, creando una base sólida para alcanzar el éxito organizacional.
-    .row.bg-marron-claro.bg-full-width.py-4.mb-4
+    .row.bg-marron-claro.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Competencias clave del liderazgo para el desarrollo de equipos de trabajo  
@@ -178,7 +178,7 @@
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
           img.h-100(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
 
-    .bg-full-width.border-top-9-azul
+    .bg-full-width.border-top-9-azul.mb-4
       .px-4.px-md-5.pt-5.pb-0
         h2 Material complementario
         .row
@@ -199,6 +199,11 @@
             figure
               img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
+    .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
 </template>
 
 <script>
@@ -208,6 +213,132 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Habilidades de Liderazgo',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Qué es la resiliencia en el contexto del liderazgo?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La habilidad de evitar problemas',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La capacidad de recuperarse de situaciones difíciles',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La tendencia a rendirse ante obstáculos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La habilidad de imponer decisiones',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: 'La escucha activa implica:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Hacer caso omiso a lo que otros dicen',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Prestar atención y comprender el mensaje de los demás',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Interrumpir a los demás para expresar tu opinión',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ignorar las emociones de los demás',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto: 'Un líder que da "la milla extra" se caracteriza por:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Hacer solo lo mínimo necesario',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Comprometerse de manera proactiva a mejorar',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Ignorar las necesidades del equipo',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ser indiferente a los resultados',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: 'La retroalimentación constructiva se basa en:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Criticar sin ofrecer soluciones',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Proporcionar información para fomentar la mejora',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Ignorar el rendimiento de los empleados',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Solo resaltar los errores', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
