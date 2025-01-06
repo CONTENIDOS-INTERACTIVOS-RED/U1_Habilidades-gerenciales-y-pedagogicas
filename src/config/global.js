@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Titulo de la unidad',
+    tituloUnidad: 'Habilidades gerenciales y pedagógicas',
   },
   menuPrincipal: {
     menu: [
@@ -31,44 +31,21 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo:
+          'Liderazgo: conceptualización, características y modelos empresariales de liderazgo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Características del liderazgo',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Modelos empresariales de liderazgo',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -76,61 +53,9 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'La comunicación como fundamento del éxito empresarial',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Texto destacado',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Audios',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Listado',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Unidad',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -170,47 +95,56 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Adame, R. (2017). La invención del futuro: el desafío del liderazgo. Bubok Publishing S.L.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/116513?page=44',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Bordas Martínez, M. J. (2016). Gestión estratégica del clima laboral. UNED - Universidad Nacional de Educación a Distancia.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/48843',
+    },
+    {
+      referencia:
+        'Castro, A. D. (2014). Comunicación organizacional: técnicas y estrategias. Barranquilla, Colombia: Universidad del Norte.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69924?page=19',
+    },
+    {
+      referencia:
+        'Lazzati, S. C., & Tailhade, M. (2019). Liderazgo gerencial. Ediciones Granica.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/151212?page=34',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Mercader Juan, C., & Gairín Sallán, J. (2018). Liderazgo y gestión del talento en las organizaciones. LA LEY Soluciones Legales S.A.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/63188?page=9',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Ramos Ramos, P. (Coord.). (2015). Dirección de equipos de trabajo: liderazgo y motivación (2.ª ed.). Editorial ICB.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/105616',
+    },
+    {
+      referencia:
+        'Ruiz Speare, O. (2017). Liderazgo. Editorial Alfil, S. A. de C. V.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/117658?page=33',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Seisdedos, N. (2003). El clima laboral y su medida. Colegio Oficial de la Psicología de Madrid.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/21221?page=',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Ulrich, D., & Smallwood, N. (2008). Marca de liderazgo. Madrid: LID Editorial España.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/271460',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Valencia Tovar, Á. (2015). El liderazgo, clave del éxito en la empresa. Colegio de Estudios Superiores de Administración - CESA.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/222463',
     },
   ],
   glosario: [

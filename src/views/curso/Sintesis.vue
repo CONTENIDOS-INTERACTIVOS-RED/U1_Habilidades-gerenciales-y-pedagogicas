@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 Esta unidad explora la importancia del liderazgo y la comunicación en el contexto empresarial, destacando cómo estos elementos son fundamentales para el éxito organizacional. Se abordarán conceptos clave relacionados con el liderazgo, así como la influencia del potencial humano y el clima empresarial en el desempeño de las organizaciones.
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>

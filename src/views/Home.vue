@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4 El liderazgo trasciende posiciones jerárquicas, siendo la capacidad de influir, inspirar y motivar. Incluye características como comunicación asertiva, empatía, toma de decisiones y adaptabilidad, esenciales para guiar equipos y fomentar un ambiente colaborativo. La comunicación, tanto verbal como no verbal, fortalece relaciones y promueve la claridad en objetivos. Un clima empresarial positivo impulsa el potencial humano, mejorando la motivación y el desempeño. Integrando liderazgo, comunicación y clima organizacional, se asegura el éxito sostenible. 
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
