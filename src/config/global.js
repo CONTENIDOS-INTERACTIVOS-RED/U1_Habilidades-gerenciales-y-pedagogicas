@@ -17,7 +17,7 @@ export default {
       },
     ],
     numeroUnidad: '1',
-    tituloUnidad: 'Habilidades gerenciales y pedagógicas',
+    tituloUnidad: 'Habilidades, competencias y actitudes',
   },
   menuPrincipal: {
     menu: [
