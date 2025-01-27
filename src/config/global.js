@@ -149,64 +149,64 @@ export default {
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Auto-liderazgo',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Capacidad de dirigir y gestionar las propias acciones y decisiones, esencial para el desarrollo del liderazgo.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Características del liderazgo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de cualidades que definen a un líder efectivo, incluyendo la comunicación asertiva, empatía, toma de decisiones, y visión estratégica.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Clima empresarial',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Ambiente emocional y social que prevalece en una organización, influenciado por la cultura, liderazgo y relaciones interpersonales.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Comunicación asertiva',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Estilo de comunicación que permite expresar pensamientos, sentimientos y necesidades de manera clara y directa, respetando a los demás.',
     },
     {
-      termino: 'Moda',
+      termino: 'Feedback',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Proceso de proporcionar información a un individuo acerca de su actuación, con el propósito de fomentar la mejora y reforzar acciones específicas.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Gestión del talento',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso de atraer, desarrollar y retener a empleados con habilidades valiosas para la organización.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Inteligencia emocional',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Capacidad de reconocer, comprender y gestionar las propias emociones y las de los demás, fundamental para un liderazgo efectivo.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Liderazgo adaptativo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Habilidad de ser flexible y responder a cambios en el entorno, especialmente útil en situaciones de incertidumbre.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Liderazgo auténtico',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Estilo de liderazgo que enfatiza la transparencia, la ética y la construcción de relaciones de confianza con los empleados.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Liderazgo transaccional',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Modelo que se basa en un sistema de recompensas y castigos, estableciendo expectativas claras para incentivar el rendimiento.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Liderazgo transformacional',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Modelo que se centra en la capacidad del líder para inspirar y motivar a los empleados, fomentando la innovación y el cambio.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Liderazgo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Capacidad de influir, guiar y motivar a un grupo hacia la consecución de objetivos, independientemente de la autoridad formal.',
     },
   ],
   complementario: [

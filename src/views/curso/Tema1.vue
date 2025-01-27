@@ -161,7 +161,7 @@
         .w-100.p-3.bg-marron(data-aos="fade-up")
           p.mb-0.text-center.text-bold Madurez
         .w-100.p-4.bg-marron-claro.mb-4(data-aos="fade-up")
-          p.mb-0.text-center Capacidad de sostener conversaciones difíciles pero constructivas, considerándooslos aspectos externos (ambiente, momento adecuado, contexto) e internos(elección de palabras, tonos de voz, gestión emocional).
+          p.mb-0.text-center Capacidad de sostener conversaciones difíciles pero constructivas, considerándooslos aspectos externos (ambiente, momento adecuado, contexto) e internos (elección de palabras, tonos de voz, gestión emocional).
         .w-100.p-3.bg-marron(data-aos="fade-up")
           p.mb-0.text-center.text-bold Claridad de expectativas
         .w-100.p-4.bg-marron-claro.mb-4(data-aos="fade-up")
@@ -263,7 +263,7 @@
           img.mb-4(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
           div.mb-4
             p.text-bold.text-center Atención
-            p.text-small.px-4.text-center.pb-2 Diferenci las capacidades organizacionales de las habilidades individuales. 
+            p.text-small.px-4.text-center.pb-2 Diferencia las capacidades organizacionales de las habilidades individuales. 
 
     p.mb-4 De esta intersección surgen cuatro áreas clave del liderazgo:
     .row.mb-4
